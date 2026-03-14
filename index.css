@@ -1,0 +1,63 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px rgb(163, 7, 235) black;
+    background-color: rgb(9, 206, 39);
+    border-radius: 50%;
+   
+}
+#box1:hover{
+    background-color: black;
+    transform: scale(1.0);
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px rgb(148, 9, 228) black;
+    background-color: rgb(9, 117, 206);
+    border-radius: 20%;
+    
+}
+#box2:hover{
+    background-color: rgb(214, 46, 46);
+    transform: scale(1.0);
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px rgb(31, 9, 235) black;
+    background-color: rgb(241, 10, 172);
+    border-radius: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;}
+
+
+#box3:hover{
+    background-color: rgb(155, 228, 21);
+    transform: scale(1.0);
+}
+.car{ 
+    position:absolute ;
+    bottom: 100px;
+     animation: movecar 2s linear infinite;
+    
+}
+@keyframes movecar {
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.sky{
+   width: 150px;
+   position: absolute;
+   top: 120px;
+   
+
+}

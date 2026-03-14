@@ -1,0 +1,26 @@
+<HTML>
+    <body>
+        <h1> love calulater</h1>
+        <input type="text" id="name1" placeholder="u r name"><br>
+        <input type="text" id="name2" placeholder="partner name"><br>
+        <button onclick="calculatedlove()">calulate love</button>
+        <div id="result"></div>
+        <script>
+            function calculatelove(){
+                
+    var name1 = document.getElementById("name1").value;
+    
+    var name2 = document.getElementById("name2").value;
+     if(name1==""||name2=="")
+     {
+       alert("please enter  both name")
+       return;
+            }
+            var lovescore= math.floor(math.random()*100)+1
+            document.getElementById("result").innerHTML=name1+"💓"+name2+"="+ lovescore+"%love";
+        }        
+
+            
+        </script>
+    </body>
+</HTML>
